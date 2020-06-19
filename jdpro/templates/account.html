@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<!--//////////////////////////////////////////////////-->
+	<!--///////////////////Account Page///////////////////-->
+	<!--//////////////////////////////////////////////////-->
+	<div id="page-content" class="single-page">
+		<div class="container">
+            <div class="row">
+				<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li><a href="{% url 'myapp:find' %}">主页</a></li>
+						<li><a href="#">注册</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="heading"><h2>创建用户</h2></div>
+					<form name="form2" id="ff2" method="post" action="{% url 'myapp:register' %}">
+                        {% if message %}
+                    <div class="alert alert-warning">{{ message }}</div>
+                {% endif %}
+						{% csrf_token %}
+						<div class="form-group">
+                  {{ register_form.username.label_tag }}
+                  {{ register_form.username}}
+              </div>
+              <div class="form-group">
+                  {{ register_form.password1.label_tag }}
+                  {{ register_form.password1 }}
+              </div>
+              <div class="form-group">
+                  {{ register_form.password2.label_tag }}
+                  {{ register_form.password2 }}
+              </div>
+              <div class="form-group">
+                  {{ register_form.email.label_tag }}
+                  {{ register_form.email }}
+              </div>
+
+              <div class="form-group">
+                  {{ register_form.sex.label_tag }}
+                  {{ register_form.sex }}
+              </div>
+
+						<button type="submit" class="btn btn-1">注册</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+</body>
+</html>

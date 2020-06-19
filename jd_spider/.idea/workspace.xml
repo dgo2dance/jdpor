@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d65f08a-18c5-4f5d-b4fb-247bca1819b6" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jd__$start02.coverage" NAME="start02 Coverage Results" MODIFIED="1585640961088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-dev" />
+    <SUITE FILE_PATH="coverage/jd__$51job.coverage" NAME="51job Coverage Results" MODIFIED="1585306294938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/jd__$t.coverage" NAME="t Coverage Results" MODIFIED="1585308475137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-dev" />
+    <SUITE FILE_PATH="coverage/jd__$start.coverage" NAME="start Coverage Results" MODIFIED="1585315045211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-dev" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZswjiYsSLVNSZGX24mwWxsoVFh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bei\代码备份\jd__\information_summary_filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bei\代码备份\jd__\information_summary_filter" />
+      <recent name="E:\bei\代码备份\jd__\python-dev" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start02">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="51job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../51job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_price" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_price/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-dev/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-dev/start02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-dev/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="jd__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.start" />
+      <item itemvalue="Python.51job" />
+      <item itemvalue="Python.t" />
+      <item itemvalue="Python.start02" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start02" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.51job" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d65f08a-18c5-4f5d-b4fb-247bca1819b6" name="Default" comment="" />
+      <created>1585297982960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585297982960</updated>
+      <workItem from="1585641248000" duration="2913000" />
+      <workItem from="1585719478140" duration="35000" />
+      <workItem from="1585720133348" duration="930000" />
+      <workItem from="1585727449958" duration="979000" />
+      <workItem from="1587569139959" duration="1476000" />
+      <workItem from="1588923147467" duration="566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="525" key="GridCell.Tab.0.bottom" timestamp="1588925930023">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1585642843357" />
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1585643236365" />
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1585730426911" />
+    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1585721098334" />
+    <state width="1323" height="525" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1588923344297" />
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1585646387207" />
+    <state width="1323" height="525" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588925930023" />
+    <state width="1323" height="525" key="GridCell.Tab.0.center" timestamp="1588925930022">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1585642843356" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1585643236364" />
+    <state width="1398" height="236" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1585730426910" />
+    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1585721098333" />
+    <state width="1323" height="525" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1588923344296" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1585646387206" />
+    <state width="1323" height="525" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1588925930022" />
+    <state width="1323" height="525" key="GridCell.Tab.0.left" timestamp="1588925930022">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1585642843355" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1585643236364" />
+    <state width="1398" height="236" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1585730426910" />
+    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1585721098323" />
+    <state width="1323" height="525" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1588923344296" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1585646387206" />
+    <state width="1323" height="525" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1588925930022" />
+    <state width="1323" height="525" key="GridCell.Tab.0.right" timestamp="1588925930023">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1585642843357" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1585643236365" />
+    <state width="1398" height="236" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1585730426911" />
+    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1585721098334" />
+    <state width="1323" height="525" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1588923344297" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1585646387207" />
+    <state width="1323" height="525" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1588925930023" />
+    <state x="229" y="69" key="SettingsEditor" timestamp="1585641257590">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="229" y="69" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1585641257590" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jd__$start.coverage" NAME="start Coverage Results" MODIFIED="1585643158522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-dev" />
+    <SUITE FILE_PATH="coverage/jd__$start02.coverage" NAME="start02 Coverage Results" MODIFIED="1588923169153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-dev" />
+    <SUITE FILE_PATH="coverage/jd__$main.coverage" NAME="main Coverage Results" MODIFIED="1585728155520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/c_price" />
+  </component>
+</project>

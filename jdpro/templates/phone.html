@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}手机榜{% endblock %}
+
+{% block content %}
+    <div class="types">
+    <div class="row">
+				<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li><a href="{% url 'myapp:find' %}">主页</a></li>
+						<li><a href="#">手机榜</a></li>
+					</ul>
+				</div>
+			</div>
+    <div class="row">
+        <div class="col-lg-12 index">
+            <div class="heading">
+                <h2>手机榜</h2>
+            </div>
+            <div class="product_list">
+                {% for good in goods %}
+                <div class="pro_li">
+                    <div class="product">
+                        <div class="image"><a href="{% url 'myapp:detail' id=good.id %}"><img src="{{ good.pic_url }}" /></a></div>
+                        <div class="buttons">
+                            <div class="caption">
+                                <div class="name"><a class="phone_name" href="{% url 'myapp:detail' id=good.id %}">{{ good.title }}</a></div>
+
+                                <span class="price">¥{{ good.number_3_15 }}</span>
+                                <span class="jfb">降幅比：{{ good.max_today }}%</span>
+                                <button class="sc"><a href="{% url 'myapp:detail' id=good.id %}">查看详情</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,3 @@
+启动django服务：python manage.py runserver
+生成迁移文件：python manage.py makemigrations
+执行迁移命令：python manage.py migrate

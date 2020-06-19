@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{% block title %}base{% endblock %}</title>
+    <! -- bootstrap -->
+     <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"  type="text/css">
+
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+	<!-- Custom Fonts -->
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}"  type="text/css">
+    <link rel="stylesheet" href="{% static 'fonts/font-slider.css' %}" type="text/css">
+
+	<!-- jQuery and Modernizr-->
+	<script src="{% static 'js/jquery-2.1.1.js' %}"></script>
+
+	<!-- Core JavaScript Files -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <body>
+	<!--Top-->
+	<nav id="top">
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-6">
+
+				</div>
+				{% if request.session.is_login %}
+				<div class="col-xs-6">
+						<ul class="top-link">
+								<li>欢迎您:{{ request.session.user_name }}</li>
+								<li><a href="{% url 'myapp:logout' %}"><span class="glyphicon glyphicon-user"></span>注销</a></li>
+						</ul>
+					</div>
+				{% else %}
+				<div class="col-xs-6">
+					<ul class="top-link">
+							<li><a href="{% url 'myapp:register' %}"><span class="glyphicon glyphicon-user"></span>注册</a></li>
+							<li><a href="{% url 'myapp:login' %}"><span class="glyphicon glyphicon-user"></span>登陆</a></li>
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</nav>
+
+	<!--Header-->
+	<header class="container">
+		<div class="row">
+			<div class="">
+				<div class="logo"><img class="logo_img" src="{% static 'images/titlelogo.png' %}"><span>商品价格推荐系统</span></div>
+			</div>
+
+		</div>
+	</header>
+	<!--Navigation-->
+
+	{% block content %}base{% endblock %}
+    <footer>
+        <div class="footer_div"></div>
+    </footer>
+	</body>
+</body>
+

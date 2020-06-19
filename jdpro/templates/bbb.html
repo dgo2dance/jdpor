@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}主页{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<div id="page-content" class="home-page">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-12 index">
+				<!-- Carousel -->
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators hidden-xs">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="{% static 'images/main-banner1-1903x600.jpg' %}" alt="First slide">
+							<!-- Static Header -->
+							<div class="header-text hidden-xs">
+								<div class="col-md-12 text-center">
+								</div>
+							</div><!-- /header-text -->
+						</div>
+						<div class="item">
+							<img src="{% static 'images/main-banner2-1903x600.jpg' %}" alt="Second slide">
+							<!-- Static Header -->
+							<div class="header-text hidden-xs">
+								<div class="col-md-12 text-center">
+								</div>
+							</div><!-- /header-text -->
+						</div>
+						<div class="item">
+							<img src="{% static 'images/main-banner3-1903x600.jpg' %}" alt="Third slide">
+							<!-- Static Header -->
+							<div class="header-text hidden-xs">
+								<div class="col-md-12 text-center">
+								</div>
+							</div><!-- /header-text -->
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div><!-- /carousel -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="banner">
+				<div class="col-sm-4">
+					<img src="{% static 'images/sub-banner1.png' %}" />
+				</div>
+				<div class="col-sm-4">
+					<img src="{% static 'images/sub-banner2.png' %}" />
+				</div>
+				<div class="col-sm-4">
+					<img src="{% static 'images/sub-banner3.png' %}" />
+				</div>
+			</div>
+		</div>
+        <div class="ai_card">
+
+            <div class="w1200">
+                <ul>
+                    <li class="active">
+                        <div class="info">
+                            <div class="img">
+                                <img src="{% static 'images/ai_icon1.png' %}"/>
+                            </div>
+                            <h3>手机榜</h3>
+                            <p>我们将为你推荐10天中最高价与当前价格降幅比最大的前三款手机</p>
+                        </div>
+                        <a href="{% url 'myapp:phone' %}" class="btn">查看详情</a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <div class="img">
+                                <img src="{% static 'images/ai_icon2.png' %}"/>
+                            </div>
+                            <h3>电脑榜</h3>
+                            <p>我们将为你推荐10天中最高价与当前价格降幅比最大的前三款电脑</p>
+                        </div>
+                        <a href="{% url 'myapp:computer' %}" class="btn">查看详情</a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <div class="img">
+                                <img src="{% static 'images/ai_icon3.png' %}"/>
+                            </div>
+                            <h3>耳机榜</h3>
+                            <p>我们将为你推荐10天中最高价与当前价格降幅比最大的前三款耳机</p>
+                        </div>
+                        <a href="{% url 'myapp:ear' %}" class="btn">查看详情</a>
+                    </li>
+                </ul>
+	        </div>
+        </div>
+
+        <div class="row">
+			<div class="banner">
+				<div class="col-sm-6">
+					<img src="{% static 'images/sub-banner6.png' %}" />
+				</div>
+				<div class="col-sm-6">
+					<img src="{% static 'images/sub-banner7.png' %}" />
+				</div>
+			</div>
+		</div>
+
+        <div class="row">
+			<div class="banner">
+				<div class="col-sm-6">
+					<img src="{% static 'images/sub-banner4.jpg' %}" />
+				</div>
+				<div class="col-sm-6">
+					<img src="{% static 'images/sub-banner5.png' %}" />
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+    <script type="text/javascript">
+	$(function(){
+		$('.ai_card ul li').hover(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		})
+	})
+</script>
+{% endblock %}
+</body>
+</html>
